@@ -1,0 +1,30 @@
+//
+//  Header.pch
+//  爱限免
+//
+//  Created by 夏世萍 on 16/5/17.
+//  Copyright © 2016年 夏世萍. All rights reserved.
+//
+
+#ifndef Header_pch
+#define Header_pch
+
+//#define limeturl @"http://1000phone.net:8088/app/iAppFree/api/limited.php";
+//#define freeurl @"http://1000phone.net:8088/app/iAppFree/api/free.php";
+//#define reduceurl @"http://1000phone.net:8088/app/iAppFree/api/reduce.php";
+//#define subjecturl @"http://1000phone.net:8088/app/iAppFree/api/reduce.php";
+//#define hoturl @"http://1000phone.net:8088/app/iAppFree/api/hot.php";
+
+
+#define limittype @"1"
+#define redecetype @"2"
+//关于打印信息
+#ifdef DEBUG
+#define xspLog(...) NSLog (__VA_ARGS__)
+#else
+#define xspLog(...)
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Header_pch */
